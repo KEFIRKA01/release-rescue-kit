@@ -1,0 +1,28 @@
+{
+  "targets": [
+    {
+      "name": "landing_form_submit",
+      "critical": true,
+      "owner": "frontend",
+      "expected_ms": 900,
+      "simulated_ms": 420,
+      "available": true
+    },
+    {
+      "name": "crm_webhook_delivery",
+      "critical": false,
+      "owner": "integrations",
+      "expected_ms": 600,
+      "simulated_ms": 860,
+      "available": true
+    },
+    {
+      "name": "payment_callback",
+      "critical": true,
+      "owner": "backend",
+      "expected_ms": 500,
+      "simulated_ms": 380,
+      "available": true
+    }
+  ]
+}
